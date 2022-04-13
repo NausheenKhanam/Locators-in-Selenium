@@ -1,0 +1,17 @@
+package pomcasestudy;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Test;
+
+public class verifysalesforceLoginPage {
+	
+	@Test 
+	public void TestUser()
+	{
+		WebDriver driver =  BrowseFactory.BrowserOptions("Chrome","https://demo.opencart.com/index.php?route=account/login" );
+		opencartLoginpage Loginsalesforce = PageFactory.initElements(driver, opencartLoginpage.class);
+		Loginsalesforce.Loginsalesforce("k05119921@gmail.com", "nausheen@05");
+	}
+
+}

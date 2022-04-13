@@ -1,0 +1,10 @@
+package launchInternetExplorer;
+
+public class TestInternetExplorer {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

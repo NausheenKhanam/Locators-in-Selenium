@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8964" started-at="2022-04-11T05:26:12Z" finished-at="2022-04-11T05:26:21Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8964" started-at="2022-04-11T05:26:12Z" finished-at="2022-04-11T05:26:21Z">
+      <class name="locators.IDexample">
+        <test-method status="PASS" signature="IdDemo()[pri:0, instance:locators.IDexample@2cfb4a64]" name="IdDemo" duration-ms="8950" started-at="2022-04-11T10:56:12Z" finished-at="2022-04-11T10:56:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IdDemo -->
+      </class> <!-- locators.IDexample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;SeleniumBrowserJars&apos; to &apos;CSVFileReading&apos;&#x0D;&#x0A;- Original project: &apos;DropDownBoxs&apos;&#x0D;&#x0A;- Destination element: &apos;CSVFileReading&apos;&#x0D;&#x0A;- Original element: &apos;SeleniumBrowserJars&apos;" description="Copy folder" element1="SeleniumBrowserJars" files="0" flags="589830" folders="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1649740979779" target="/CSVFileReading" units="0" version="1.0"/>
+</session>

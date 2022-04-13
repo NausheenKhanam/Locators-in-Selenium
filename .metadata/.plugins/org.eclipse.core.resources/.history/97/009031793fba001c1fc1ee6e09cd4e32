@@ -1,0 +1,20 @@
+package pomcasestudy;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Test;
+
+import pom.BrowseFactory;
+import pom.LoginPage;
+
+public class verifyLoginOpencart {
+	
+	@Test 
+	public void TestUser()
+	{
+		WebDriver driver =  BrowseFactory.BrowserOptions("Chrome","https://demo.opencart.com/index.php?route=account/login/" );
+		opencartLoginPage Loginopencart = PageFactory.initElements(driver, opencartLoginPage.class);
+		Loginopencart.Loginopencart("Admin", "admin123");
+	}
+
+}

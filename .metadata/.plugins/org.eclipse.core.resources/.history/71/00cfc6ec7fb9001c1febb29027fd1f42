@@ -1,0 +1,25 @@
+package FRAMES;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class Multipleframes {
+	@Test
+	public void IdDemo() {
+		
+		
+		System.setProperty("webdriver.chrome.driver", 
+				"C:\\Users\\Lenovo\\Documents\\DXC Selenium Automation Class\\Frames in Selenium\\ChromeBrowsersJars\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("file:///C:/Users/Lenovo/Downloads/OneDrive_1_4-11-2022/frame.html");
+		
+		//Count Number of frames
+		
+		int totalnoFrames = driver.findElements(By.tagName("iframe")).size();
+		System.out.println("Number of frames...."+ totalnoFrames);
+	} 
+
+}
